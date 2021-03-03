@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0-alpha.3](https://github.com/sishang/json2javabean/compare/v1.1.0-alpha.2...v1.1.0-alpha.3) (2021-03-03)
+
+
+### Bug Fixes
+
+* 重新打包 ([dfe9e98](https://github.com/sishang/json2javabean/commit/dfe9e980f13189aa8545509344f39b39bbde7918))
+
 ## [1.1.0-alpha.2](https://github.com/sishang/json2javabean/compare/v1.1.0-alpha.1...v1.1.0-alpha.2) (2021-03-03)
 
 ## [1.1.0-alpha.1](https://github.com/sishang/json2javabean/compare/v1.1.0-alpha.0...v1.1.0-alpha.1) (2021-03-03)
