@@ -5,7 +5,11 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'json2javabean.js',
-    library: 'package',
+    library: {
+      root: 'json2java',
+      commonjs: 'json2java',
+      amd: 'json2java'
+    },
     libraryTarget: 'umd'
   },
   module: {
