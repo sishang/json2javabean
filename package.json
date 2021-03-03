@@ -1,0 +1,23 @@
+{
+  "name": "json2javabean",
+  "version": "1.0.0",
+  "description": "json转换成java模板",
+  "main": "index.js",
+  "scripts": {},
+  "author": "zss",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^7.21.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.0.1",
+    "@commitlint/config-conventional": "^12.0.1",
+    "husky": "^5.1.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "eslint src --fix --ext .js",
+      "commit-msg": "commitlint -e"
+    }
+  }
+}
