@@ -4,7 +4,7 @@
   "description": "json转换成java模板",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/index.js",
+    "dev": "node src/test.js",
     "build": "webpack",
     "release": "standard-version",
     "release:alpha": "standard-version --prerelease alpha",
