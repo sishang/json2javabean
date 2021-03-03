@@ -223,7 +223,7 @@ function getTypeFromJsonVal (val, key, attrClassAry) {
  * @param isLomBook 是否使用注解形式生成java bean
  * @return {*}
  */
-function main (text, className, packageName, isLomBook) {
+function json2java (text, className, packageName, isLomBook) {
   if (!text) {
     return
   }
@@ -244,4 +244,4 @@ function main (text, className, packageName, isLomBook) {
 
 }
 
-module.exports = main
+module.exports = json2java;

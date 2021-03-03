@@ -4,13 +4,8 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'json2javabean.js',
-    library: {
-      root: 'json2java',
-      commonjs: 'json2java',
-      amd: 'json2java'
-    },
-    libraryTarget: 'umd'
+    library: 'json2java',
+    libraryTarget: 'commonjs'
   },
   module: {
     rules: [{
