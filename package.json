@@ -11,7 +11,11 @@
     "release:beta": "standard-version --prerelease beta",
     "release:rc": "standard-version --prerelease rc"
   },
-  "author": "zss",
+  "author": "sishang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sishang/json2javabean"
+  },
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
@@ -35,5 +39,9 @@
       "pre-commit": "eslint src --fix --ext .js",
       "commit-msg": "commitlint -e"
     }
+  },
+  "homepage": "https://github.com/sishang/json2javabean/blob/master/README.md",
+  "bugs": {
+    "url": "https://github.com/sishang/json2javabean/issues"
   }
 }
