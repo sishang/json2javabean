@@ -2,13 +2,13 @@
   "name": "json2javabean",
   "version": "1.1.0-alpha.5",
   "description": "json转换成java模板",
-  "main": "dist/main.js",
+  "main": "lib/main.js",
   "keywords": [
     "json",
     "java bean"
   ],
   "scripts": {
-    "test": "node test/test.js",
+    "dev": "node test/test.js",
     "build": "webpack",
     "release": "standard-version",
     "release:alpha": "standard-version --prerelease alpha",
