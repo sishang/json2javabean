@@ -1,6 +1,4 @@
-// const json2java = require('../src/index');
-const json2java = require('../dist/main');
-
+const json2java = require('../dist/output');
 const JSON_OBJ = {
   "isSuccess": true,
   "data": [],
