@@ -8,7 +8,7 @@
     "java bean"
   ],
   "scripts": {
-    "dev": "node test/test.js",
+    "dev": "node example/example.js",
     "build": "webpack",
     "release": "standard-version",
     "release:alpha": "standard-version --prerelease alpha",
